@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Divona {
+    display: flex;
+    gap: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: white;
+    width: max-content;
+    padding-left: 50px;
+    font-size: 2rem;
+}
+
+#div1>img {
+    border-radius: 15px;
+}
+
+h4 {
+    color: red;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}

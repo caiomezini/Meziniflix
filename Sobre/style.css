@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('plano_de_fundo.png');
+    color: #333;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+}
+
+nav {
+    margin-left: 900px;
+    margin-top: 25px;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: ease 0.25s;
+}
+
+nav>ul>li>a:hover {
+    color: gray;
+    scale: 1.01;
+    transition: ease-in 0.25s;
+}
+
+div {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #cfcfcf;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: ease 0.75s;
+}
+
+div:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    color: rgba(240, 248, 255, 1);
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.774);
+    width: 100%;
+    font-size: 1.5rem;
+    color: red;
+}

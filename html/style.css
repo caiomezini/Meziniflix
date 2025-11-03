@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+nav>ul {
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    font-size: 2rem;
+    margin-left: 700px;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    transition: ease 0.25s;
+}
+
+nav>ul>li>a:hover {
+    scale: 1.01;
+    color: gray;
+    transition: ease-in 0.25s;
+}
+
+main {
+    margin-top: 150px;
+}
+
+.filmes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: max-content;
+    padding-top: 25px;
+    gap: 100px;
+    margin: 0 auto;
+}
+
+#filme {
+    width: max-content;
+    transition: ease 0.25s;
+}
+
+#filme:hover {
+    scale: 1.05;
+    transition: ease-in 0.25s;
+}
+
+a>img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.IMDb_button {
+    width: max-content;
+}
+
+.IMDb_button>img {
+    width: 50px;
+    border-radius: 0;
+    position: relative;
+    top: -40px;
+    right: -140px;
+    transition: ease 0.25s;  
+}
+
+.IMDb_button>img:hover {
+    scale: 1.05;
+    transition: ease-in 0.25s;
+}
+
+h2 {
+    color: white;
+    width: max-content;
+    padding-left: 50px;
+    font-size: 2rem;
+}
+
+h4 {
+    color: white;
+}
+
+a {
+    color: red;
+    display: block;
+}
+
+footer {
+    margin-top: 25px;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+}
+
+p {
+    color: white;
+}

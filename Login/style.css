@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    background-image: url('plano_de_fundo.png');
+    font-family: 'Poppins', sans-serif;
+}
+#div1 {
+    background-color: rgba(0, 0, 0, 0.774);
+    font-family: Arial, sans-serif;
+    width: 400px;
+    height: 670px;
+    margin: 0 auto;
+    line-height: 2.5;
+    text-align: left;
+    border-radius: 15px;
+}
+#div2, #div3 {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+div>img {
+    position: relative;
+    bottom: -6px;
+    left: -5px;
+}
+
+#div4 {
+    width: 145px;
+    margin: 0 auto;
+}
+
+#div4>a {
+    text-decoration: none;
+    transition: ease 0.25s;
+}
+
+#div4>a:hover {
+    color: rgb(155, 159, 162);
+    transition: ease-in 0.25s;
+}
+
+#div5 {
+    display: flex;
+}
+#div6 {
+    width: 70px;
+    margin: 70px;
+}
+
+#div6>a>button {
+    cursor: pointer;
+    transition: ease 0.25s;
+}
+
+#div6>a>button:hover {
+    background-color: rgb(148, 0, 0);
+    transition: ease-in 0.25s;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+input {
+    width: 250px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#div5>div>input {
+    cursor: pointer;
+}
+
+hr {
+    width: 250px;
+}
+a {
+    color: rgba(255, 255, 255, 0.705);
+}
+label {
+    color: white;
+}
+button {
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
+footer {
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+}
