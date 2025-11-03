@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('plano_de_fundo.png');
+    background-image: url('./img/plano_de_fundo.png');
     color: #333;
     margin: 0;
     padding: 0;

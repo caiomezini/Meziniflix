@@ -2,7 +2,7 @@ body {
     margin: 0;
     top: 0;
     padding: 0;
-    background-image: url('plano_de_fundo.png');
+    background-image: url('./img/plano_de_fundo.png');
     font-family: 'Poppins', sans-serif;
 }
 #div1 {
